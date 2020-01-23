@@ -1,0 +1,10 @@
+on:
+  schedule:
+    - cron: '*/1 * * * *'
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    name: Check expressjs site links
+    steps:
+      uses: jonchurch/express-link-check
