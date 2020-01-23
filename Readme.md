@@ -64,4 +64,4 @@ found on:
 
 ## Github Action
 
-Yeah, iBad t's broken right now ¯\_(ツ)\_/¯
+Yeah, it's broken right now `¯\_(ツ)\_/¯`
