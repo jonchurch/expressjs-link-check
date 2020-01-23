@@ -46,6 +46,22 @@ END {
 
 This displays unique Bad URLs, and lists on what page each Bad URL is found. Most URLs are repeated across translations on the express site, so this gives you the unique value (the Bad URL), and all the pages that need to be updated.
 
+That output looks like this:
+
+```
+404 - https://nodejs.org/api/cluster.html.
+found on:
+  expressjs.com/ja/advanced/best-practice-performance.html
+404 - http://strongloop.com/strongblog/category/express/
+found on:
+  expressjs.com/de/resources/books-blogs.html
+  expressjs.com/ko/resources/books-blogs.html
+  expressjs.com/zh-tw/resources/books-blogs.html
+  expressjs.com/sk/resources/books-blogs.html
+  expressjs.com/uz/resources/books-blogs.html
+  expressjs.com/fr/resources/books-blogs.html
+```
+
 ## Github Action
 
-Yeah, it's broken right now ¯\_(ツ)\_/¯
+Yeah, iBad t's broken right now ¯\_(ツ)\_/¯
