@@ -19,7 +19,7 @@ muffet -c 100 -t 30 https://expressjs.com
 
 Muffet checks for a lot more than 404s, it checks if anchors aren't present on a page that was linked to with an anchor (`http://url.com/index.html#my-anchor`) and checks for redirects. But currently I only care about checking 404s.
 
-Because muffet doesn't have a way to only check for 404s, and the output syntax duplicates URLs which are bad, I feed the output through `gawk`:
+Because muffet doesn't have a way to only check for 404s, and the output syntax duplicates URLs which are bad, I feed the output through `gawk` to grab only 404 errors:
 
 ```
 muffet -c 100 -t 30 https://expressjs.com | gawk '
