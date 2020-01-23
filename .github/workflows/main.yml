@@ -8,4 +8,4 @@ jobs:
     name: Check expressjs site links
     steps:
       - name: check links
-        uses: jonchurch/express-link-check@master
+        uses: jonchurch/express-link-check
