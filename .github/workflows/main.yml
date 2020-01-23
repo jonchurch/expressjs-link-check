@@ -7,4 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     name: Check expressjs site links
     steps:
-      uses: jonchurch/express-link-check@master
+      - name: check links
+        uses: jonchurch/express-link-check@master
