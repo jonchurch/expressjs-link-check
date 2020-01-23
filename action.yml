@@ -1,0 +1,5 @@
+name: 'Link Check'
+description: 'Check the live expressjs.com site for 404 links'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
